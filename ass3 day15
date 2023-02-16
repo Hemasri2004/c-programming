@@ -1,0 +1,20 @@
+#include <stdio.h>
+
+int main() {
+    
+   int x,y,z=1,i;
+   
+       printf("enter x value:");
+       scanf("%d",&x);
+       printf("enter y value:");
+       scanf("%d",&y);
+       while(i<y)
+       {
+       z=z*x;
+       
+       i++;
+}
+ printf("%d",z);
+
+    return 0;
+}
