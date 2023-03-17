@@ -1,0 +1,13 @@
+#include <stdio.h>
+
+int main() {
+int l,b,ar;
+scanf("%d%d",&l,&b);
+ar=area(l,b);
+printf("area=%d",ar);
+}
+int area(int l,int b){
+    int i;
+    i=l*b;
+    return i;
+}
