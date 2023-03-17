@@ -1,0 +1,11 @@
+#include <stdio.h>
+
+int main() {
+    int i,j,m,n;
+    scanf("%d%d",&m,&n);
+    for(i=1,j=1;i<=10,j<=10;i++,j++){
+        printf("%d*%d=%d\t%d*%d=%d\n",m,i,m*i,n,j,n*j);
+    }
+
+    return 0;
+}
