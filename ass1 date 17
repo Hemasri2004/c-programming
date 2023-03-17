@@ -1,0 +1,13 @@
+#include <stdio.h>
+
+int main() {
+int n,cb;
+scanf("%d",&n);
+cb=cube(n);
+printf("cube=%d",cb);
+}
+int cube(int n){
+    int i;
+    i=n*n*n;
+    return i;
+}
