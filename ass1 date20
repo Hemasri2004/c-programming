@@ -1,4 +1,4 @@
-//code-hema print biggest of three  numbers
+//code-hema print biggest of three  numbers using call by value passing technique
 #include <stdio.h>
 void big(int a,int b, int c);
 int main()
