@@ -1,0 +1,21 @@
+//code-hema perform arithmetic operations using functions
+#include <stdio.h>
+void ap(int a,int b,float c,float d)
+{
+  
+    printf("sum=%d\n",a+b);
+     printf("sub=%d\n",a-b);
+      printf("mul=%d\n",a*b);
+      c=a;
+      d=b;
+printf("div=%.2f\n",c/d);
+ printf("amp=%d",a%b);
+}
+int main()
+{
+    int a,b;
+  float c,d;
+    scanf("%d%d",&a,&b);
+    ap(a,b,c,d);
+    return 0;
+}
