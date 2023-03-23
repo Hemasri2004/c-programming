@@ -1,0 +1,24 @@
+#include <stdio.h>
+struct student
+{
+    int id,m1,m2,m3;
+    char name[30];
+}s1;
+
+int main() {
+    int total,avg;
+    scanf("%d",&s1.id);
+    scanf("%s",s1.name);
+    scanf("%d%d%d",&s1.m1,&s1.m2,&s1.m3);
+printf("student id:%d\n",s1.id);  
+printf("student name is:%s\n",s1.name);
+printf("m1 marks is:%d\n",s1.m1);
+printf("m2 marks is:%d\n",s1.m2);
+printf("m3 marks is:%d\n\n",s1.m3);
+total=s1.m1+s1.m2+s1.m3;
+avg=total/3;
+printf("total:%d\n",total);
+printf("average:%d",avg);
+
+    return 0;
+}
