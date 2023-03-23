@@ -1,3 +1,4 @@
+//code-hema prh using structure named student
 #include <stdio.h>
 struct student
 {
