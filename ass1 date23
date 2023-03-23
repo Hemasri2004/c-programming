@@ -1,0 +1,18 @@
+//code-hema prg using structure named book
+#include <stdio.h>
+struct book
+{
+    int id,price;
+    char title[30],author[30];
+}b1;
+int main() {
+    scanf("%d",&b1.id);
+    scanf("%s",b1.title);
+    scanf("%s",b1.author);
+    scanf("%d",&b1.price);
+printf("book id:%d\n",b1.id);  
+printf("book title is:%s\n",b1.title);
+printf("book author:%s\n",b1.author);
+printf("price is:%d",b1.price);
+    return 0;
+}
