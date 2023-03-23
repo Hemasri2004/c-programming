@@ -1,0 +1,20 @@
+//code-hema prg using structure named employee
+#include <stdio.h>
+struct employee
+{
+    int id,salary,d,m,y;
+    char name[30];
+    
+}e1;
+int main() {
+    scanf("%d",&e1.id);
+    scanf("%s",e1.name);
+    scanf("%d",&e1.salary);
+    scanf("%d%d%d",&e1.d,&e1.m,&e1.y);
+printf("employee id:%d\n",e1.id);  
+printf("employee name is:%s\n",e1.name);
+printf("employee salary is:%d\n",e1.salary);
+printf("employee DOB is:%d/%d/%d",e1.d,e1.m,e1.y);
+
+    return 0;
+}
