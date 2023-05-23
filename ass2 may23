@@ -1,0 +1,19 @@
+#include <stdio.h>
+int main() {
+  int n,i,a[60],ba,sa=0,aa;
+  scanf("%d",&n);
+  for(i=0;i<n;i++){
+      scanf("%d",&a[i]);
+  }
+  for(i=0;i<n;i++){
+      if(a[i]<6)
+      ba++;
+      else if(a[i]<15)
+      sa++;
+      else
+      aa++;
+  
+  }
+  printf("Baby age=%d\nSchool age=%d\nAdult age=%d",ba,sa,aa);
+    return 0;
+}
