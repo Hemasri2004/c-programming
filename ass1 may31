@@ -1,0 +1,25 @@
+#include <stdio.h>
+int main(){
+    int a[10]={1,2,3,4,5,6,7,8,9};
+    int len=sizeof(a)/sizeof(int);
+    int sint=0,eint=len-1;
+    int n;
+    void search(int[],int,int,int,int);
+    scanf("%d",&n);
+    search(a,len,sint,eint,n);
+}
+void search(int a[],int len,int sint,int eint,int n){
+    int mid;
+    while(sint<=eint){
+        mid = (sint+eint)/2;
+        printf("\nMid=%d-%d\n",mid,a[mid]);
+        if(a[mid]==n){
+            printf("\nLoc=%d",mid);
+        }
+        if(a[mid]>n)
+        eint=mid-1;
+        else
+        sint=mid+1;
+    }
+}
+
