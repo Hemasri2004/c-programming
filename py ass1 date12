@@ -1,0 +1,5 @@
+a=int(input())
+if(a>50):
+ print("Hi")
+else:
+ print("Bye")
